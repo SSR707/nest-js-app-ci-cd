@@ -17,7 +17,7 @@ async function bootstrap() {
       },
       'access-token',
     )
-    .setDescription('The Project API description')
+    .setDescription('The Auth API description')
     .setVersion('1.0')
     .build();
   const documentFactory = () => SwaggerModule.createDocument(app, config);
